@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff6347;
+    color: white;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffe4b5;
+}
+
+.produtos {
+    padding: 20px;
+}
+
+ul#lista-produtos {
+    list-style-type: none;
+}
+
+ul#lista-produtos li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.detalhes-produto {
+    padding: 20px;
+}

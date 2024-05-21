@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Produto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Detalhes do Produto</h1>
+    </header>
+
+    <section class="detalhes-produto">
+        <h2 id="produto-nome"></h2>
+        <p id="produto-descricao"></p>
+        <p id="produto-preco"></p>
+        <label for="observacoes">Observações:</label>
+        <textarea id="observacoes"></textarea>
+        <button onclick="fazerPedido()">Fazer Pedido</button>
+    </section>
+
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js"></script>
+    <script src="product.js"></script>
+</body>
+</html>
