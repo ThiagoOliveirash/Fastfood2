@@ -1,12 +1,13 @@
 // Configuração do Firebase
 const firebaseConfig = {
     apiKey: "AIzaSyClpiCP_JAv-POWoDr9yT70bp8PUcBg8uQ",
-  authDomain: "fast-food-4209b.firebaseapp.com",
-  projectId: "fast-food-4209b",
-  storageBucket: "fast-food-4209b.appspot.com",
-  messagingSenderId: "490750175837",
-  appId: "1:490750175837:web:770d7a4f283f0a83ac3bb4",
-  measurementId: "G-N9J3MFEZ8B"
+    authDomain: "fast-food-4209b.firebaseapp.com",
+    databaseURL: "https://fast-food-4209b.firebaseio.com",
+    projectId: "fast-food-4209b",
+    storageBucket: "fast-food-4209b.appspot.com",
+    messagingSenderId: "490750175837",
+    appId: "1:490750175837:web:770d7a4f283f0a83ac3bb4",
+    measurementId: "G-N9J3MFEZ8B"
 };
 
 const app = firebase.initializeApp(firebaseConfig);
