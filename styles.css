@@ -1,5 +1,10 @@
+/* Estilos gerais para todo o site */
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
 }
 
 header {
@@ -9,27 +14,72 @@ header {
     color: white;
 }
 
-.banner {
-    text-align: center;
-    padding: 50px;
-    background-color: #ffe4b5;
+h1 {
+    margin: 0;
 }
 
-.produtos {
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilos específicos para a página de administração */
+section.admin {
     padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
-ul#lista-produtos {
-    list-style-type: none;
+/* Estilos para o formulário de adicionar produto */
+form#form-produto {
+    display: flex;
+    flex-direction: column;
 }
 
-ul#lista-produtos li {
-    margin: 10px 0;
+form#form-produto input,
+form#form-produto textarea,
+form#form-produto button {
+    margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form#form-produto input,
+form#form-produto textarea {
+    font-size: 16px;
+    width: 100%;
+}
+
+form#form-produto button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
     cursor: pointer;
 }
 
-.detalhes-produto {
-    padding: 20px;
+form#form-produto button:hover {
+    background-color: #e5533d;
+}
+
+/* Estilos para a lista de pedidos */
+ul#lista-pedidos {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#lista-pedidos li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+ul#lista-pedidos li:last-child {
+    border-bottom: none;
 }
